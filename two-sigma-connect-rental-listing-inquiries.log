@@ -1,0 +1,283 @@
+13.8s 1 /kaggle/input/two-sigma-connect-rental-listing-inquiries/images_sample.zip
+13.8s 2 /kaggle/input/two-sigma-connect-rental-listing-inquiries/Kaggle-renthop.torrent
+13.8s 3 /kaggle/input/two-sigma-connect-rental-listing-inquiries/sample_submission.csv.zip
+13.8s 4 /kaggle/input/two-sigma-connect-rental-listing-inquiries/test.json.zip
+13.8s 5 /kaggle/input/two-sigma-connect-rental-listing-inquiries/train.json.zip
+13.8s 6 /opt/conda/lib/python3.7/site-packages/papermill/iorw.py:50: FutureWarning: pyarrow.HadoopFileSystem is deprecated as of 2.0.0, please use pyarrow.fs.HadoopFileSystem instead.
+13.8s 7 from pyarrow import HadoopFileSystem
+23.0s 8 ['bathrooms' 'bedrooms' 'building_id' 'created' 'description'
+23.0s 9 'display_address' 'features' 'latitude' 'listing_id' 'longitude'
+23.0s 10 'manager_id' 'photos' 'price' 'street_address' 'interest_level']
+23.2s 11 ['bathrooms' 'bedrooms' 'building_id' 'created' 'description'
+23.2s 12 'display_address' 'features' 'latitude' 'listing_id' 'longitude'
+23.2s 13 'manager_id' 'photos' 'price' 'street_address']
+210.0s 14 <class 'pandas.core.frame.DataFrame'>
+210.0s 15 Int64Index: 49352 entries, 4 to 124009
+210.0s 16 Data columns (total 15 columns):
+210.0s 17 #   Column           Non-Null Count  Dtype
+210.0s 18 ---  ------           --------------  -----
+210.0s 19 0   bathrooms        49352 non-null  float64
+210.0s 20 1   bedrooms         49352 non-null  int64
+210.0s 21 2   building_id      49352 non-null  object
+210.0s 22 3   created          49352 non-null  object
+210.0s 23 4   description      49352 non-null  object
+210.0s 24 5   display_address  49352 non-null  object
+210.0s 25 6   features         49352 non-null  object
+210.0s 26 7   latitude         49352 non-null  float64
+210.0s 27 8   listing_id       49352 non-null  int64
+210.0s 28 9   longitude        49352 non-null  float64
+210.0s 29 10  manager_id       49352 non-null  object
+210.0s 30 11  photos           49352 non-null  object
+210.0s 31 12  price            49352 non-null  int64
+210.0s 32 13  street_address   49352 non-null  object
+210.0s 33 14  interest_level   49352 non-null  object
+210.0s 34 dtypes: float64(3), int64(3), object(9)
+210.0s 35 memory usage: 6.0+ MB
+210.2s 36 <class 'pandas.core.frame.DataFrame'>
+210.2s 37 Int64Index: 74659 entries, 0 to 124010
+210.2s 38 Data columns (total 14 columns):
+210.2s 39 #   Column           Non-Null Count  Dtype
+210.2s 40 ---  ------           --------------  -----
+210.2s 41 0   bathrooms        74659 non-null  float64
+210.2s 42 1   bedrooms         74659 non-null  int64
+210.2s 43 2   building_id      74659 non-null  object
+210.2s 44 3   created          74659 non-null  object
+210.2s 45 4   description      74659 non-null  object
+210.2s 46 5   display_address  74659 non-null  object
+210.2s 47 6   features         74659 non-null  object
+210.2s 48 7   latitude         74659 non-null  float64
+210.2s 49 8   listing_id       74659 non-null  int64
+210.2s 50 9   longitude        74659 non-null  float64
+210.2s 51 10  manager_id       74659 non-null  object
+210.2s 52 11  photos           74659 non-null  object
+210.2s 53 12  price            74659 non-null  int64
+210.2s 54 13  street_address   74659 non-null  object
+210.2s 55 dtypes: float64(3), int64(3), object(8)
+210.2s 56 memory usage: 8.5+ MB
+219.2s 57 Number of Unique Display Addresses is 8826
+220.6s 58 /opt/conda/lib/python3.7/site-packages/seaborn/regression.py:581: UserWarning: The `size` parameter has been renamed to `height`; please update your code.
+220.6s 59 warnings.warn(msg, UserWarning)
+225.6s 60 /opt/conda/lib/python3.7/site-packages/seaborn/distributions.py:2619: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
+225.6s 61 warnings.warn(msg, FutureWarning)
+1173.0s 62 /opt/conda/lib/python3.7/site-packages/xgboost/sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+1173.0s 63 warnings.warn(label_encoder_deprecation_msg, UserWarning)
+1173.3s 64 [10:47:59] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+1373.4s 65 [10:51:18] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+1578.9s 66 [10:54:44] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+1784.1s 67 [10:58:09] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+1987.1s 68 [11:01:32] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+2189.8s 69 [32m[I 2022-01-31 11:04:55,773][0m A new study created in memory with name: no-name-8d7164c0-e478-45ea-8b1e-a6f44b7646a0[0m
+2190.2s 70 [32m[I 2022-01-31 11:04:56,179][0m Trial 0 finished with value: 0.7041839732549894 and parameters: {'booster': 'gbtree', 'learning_rate': 0.016816083996815695, 'max_depth': 7, 'subsample': 0.4607074242149113, 'colsample_bytree': 0.5203592160246616}. Best is trial 0 with value: 0.7041839732549894.[0m
+2190.3s 71 [32m[I 2022-01-31 11:04:56,277][0m Trial 1 finished with value: 0.6946611285584035 and parameters: {'booster': 'gblinear', 'learning_rate': 0.016752633577416142, 'max_depth': 10, 'subsample': 0.4930025951498269, 'colsample_bytree': 0.6388969927001121}. Best is trial 0 with value: 0.7041839732549894.[0m
+2190.4s 72 [32m[I 2022-01-31 11:04:56,370][0m Trial 2 finished with value: 0.6946611285584035 and parameters: {'booster': 'gblinear', 'learning_rate': 0.021622300305822188, 'max_depth': 5, 'subsample': 0.8657587450520384, 'colsample_bytree': 0.8932983831997682}. Best is trial 0 with value: 0.7041839732549894.[0m
+2190.4s 73 [11:04:56] WARNING: ../src/learner.cc:576:
+2190.4s 74 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2190.4s 75 
+2190.4s 76 This could be a false alarm, with some parameters getting used by language bindings but
+2190.4s 77 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2190.4s 78 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2190.4s 79 
+2190.4s 80 
+2190.4s 81 [11:04:56] WARNING: ../src/learner.cc:576:
+2190.4s 82 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2190.4s 83 
+2190.4s 84 This could be a false alarm, with some parameters getting used by language bindings but
+2190.4s 85 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2190.4s 86 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2190.4s 87 
+2190.4s 88 
+2190.5s 89 [32m[I 2022-01-31 11:04:56,483][0m Trial 3 finished with value: 0.6901023199270591 and parameters: {'booster': 'gbtree', 'learning_rate': 0.055477291514233605, 'max_depth': 5, 'subsample': 0.05180733377807778, 'colsample_bytree': 0.06732646640663287}. Best is trial 0 with value: 0.7041839732549894.[0m
+2191.4s 90 [32m[I 2022-01-31 11:04:57,394][0m Trial 4 finished with value: 0.7168473305642791 and parameters: {'booster': 'dart', 'learning_rate': 0.03739154339584264, 'max_depth': 10, 'subsample': 0.6790166712525748, 'colsample_bytree': 0.7846419840384307}. Best is trial 4 with value: 0.7168473305642791.[0m
+2191.7s 91 [32m[I 2022-01-31 11:04:57,670][0m Trial 5 finished with value: 0.699321244048222 and parameters: {'booster': 'gbtree', 'learning_rate': 0.013531763654789272, 'max_depth': 4, 'subsample': 0.9966815213289075, 'colsample_bytree': 0.7683847109124524}. Best is trial 4 with value: 0.7168473305642791.[0m
+2192.0s 92 [32m[I 2022-01-31 11:04:57,903][0m Trial 6 finished with value: 0.6910140816533279 and parameters: {'booster': 'gbtree', 'learning_rate': 0.04648733303734314, 'max_depth': 5, 'subsample': 0.04466066246089484, 'colsample_bytree': 0.41536366516892}. Best is trial 4 with value: 0.7168473305642791.[0m
+2192.2s 93 [32m[I 2022-01-31 11:04:58,144][0m Trial 7 finished with value: 0.7037787458210921 and parameters: {'booster': 'gbtree', 'learning_rate': 0.015544590117836828, 'max_depth': 5, 'subsample': 0.5321069992570016, 'colsample_bytree': 0.2857093551632274}. Best is trial 4 with value: 0.7168473305642791.[0m
+2192.3s 94 [32m[I 2022-01-31 11:04:58,238][0m Trial 8 finished with value: 0.6939519805490831 and parameters: {'booster': 'gblinear', 'learning_rate': 0.040667837991969866, 'max_depth': 10, 'subsample': 0.2763702404024808, 'colsample_bytree': 0.53444591173745}. Best is trial 4 with value: 0.7168473305642791.[0m
+2192.4s 95 [11:04:58] WARNING: ../src/learner.cc:576:
+2192.4s 96 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2192.4s 97 
+2192.4s 98 This could be a false alarm, with some parameters getting used by language bindings but
+2192.4s 99 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2192.4s 100 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2192.4s 101 
+2192.4s 102 
+2192.6s 103 [32m[I 2022-01-31 11:04:58,569][0m Trial 9 finished with value: 0.6953702765677237 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05723463823325637, 'max_depth': 9, 'subsample': 0.31953313486045987, 'colsample_bytree': 0.3011706924356079}. Best is trial 4 with value: 0.7168473305642791.[0m
+2193.8s 104 [32m[I 2022-01-31 11:04:59,741][0m Trial 10 finished with value: 0.7137068179515752 and parameters: {'booster': 'dart', 'learning_rate': 0.08686983443587303, 'max_depth': 8, 'subsample': 0.72726924129444, 'colsample_bytree': 0.9429842279562399}. Best is trial 4 with value: 0.7168473305642791.[0m
+2195.1s 105 [32m[I 2022-01-31 11:05:01,096][0m Trial 11 finished with value: 0.713301590517678 and parameters: {'booster': 'dart', 'learning_rate': 0.09797238035754198, 'max_depth': 8, 'subsample': 0.7160464227581127, 'colsample_bytree': 0.9725462266571412}. Best is trial 4 with value: 0.7168473305642791.[0m
+2195.8s 106 [32m[I 2022-01-31 11:05:01,724][0m Trial 12 finished with value: 0.7114780670651404 and parameters: {'booster': 'dart', 'learning_rate': 0.09994236948936672, 'max_depth': 7, 'subsample': 0.6953244831932381, 'colsample_bytree': 0.7954555994887951}. Best is trial 4 with value: 0.7168473305642791.[0m
+2197.0s 107 [32m[I 2022-01-31 11:05:02,945][0m Trial 13 finished with value: 0.716746023705805 and parameters: {'booster': 'dart', 'learning_rate': 0.025056191417524153, 'max_depth': 11, 'subsample': 0.7099668797639777, 'colsample_bytree': 0.9906483532608308}. Best is trial 4 with value: 0.7168473305642791.[0m
+2198.0s 108 [32m[I 2022-01-31 11:05:03,962][0m Trial 14 finished with value: 0.7179617060074968 and parameters: {'booster': 'dart', 'learning_rate': 0.026530279333619896, 'max_depth': 11, 'subsample': 0.8707676979174627, 'colsample_bytree': 0.7292511399361694}. Best is trial 14 with value: 0.7179617060074968.[0m
+2199.0s 109 [32m[I 2022-01-31 11:05:04,945][0m Trial 15 finished with value: 0.713605511093101 and parameters: {'booster': 'dart', 'learning_rate': 0.010047708487860596, 'max_depth': 11, 'subsample': 0.9269865263407111, 'colsample_bytree': 0.6672209243922682}. Best is trial 14 with value: 0.7179617060074968.[0m
+2199.9s 110 [32m[I 2022-01-31 11:05:05,840][0m Trial 16 finished with value: 0.7181643197244454 and parameters: {'booster': 'dart', 'learning_rate': 0.03129719142662247, 'max_depth': 10, 'subsample': 0.856854936738194, 'colsample_bytree': 0.7741808719608794}. Best is trial 16 with value: 0.7181643197244454.[0m
+2200.8s 111 [32m[I 2022-01-31 11:05:06,781][0m Trial 17 finished with value: 0.7206969911863033 and parameters: {'booster': 'dart', 'learning_rate': 0.027862850259270034, 'max_depth': 11, 'subsample': 0.8361340618196477, 'colsample_bytree': 0.6544261270379697}. Best is trial 17 with value: 0.7206969911863033.[0m
+2201.5s 112 [32m[I 2022-01-31 11:05:07,485][0m Trial 18 finished with value: 0.7104649984803972 and parameters: {'booster': 'dart', 'learning_rate': 0.031829365671375065, 'max_depth': 9, 'subsample': 0.809937742335901, 'colsample_bytree': 0.6132664622177427}. Best is trial 17 with value: 0.7206969911863033.[0m
+2202.1s 113 [32m[I 2022-01-31 11:05:08,060][0m Trial 19 finished with value: 0.7099584641880254 and parameters: {'booster': 'dart', 'learning_rate': 0.021747763700980822, 'max_depth': 9, 'subsample': 0.6107939700231162, 'colsample_bytree': 0.39595636459834904}. Best is trial 17 with value: 0.7206969911863033.[0m
+2202.4s 114 [32m[I 2022-01-31 11:05:08,376][0m Trial 20 finished with value: 0.7012460743592341 and parameters: {'booster': 'dart', 'learning_rate': 0.030703647408992774, 'max_depth': 3, 'subsample': 0.9888911053856757, 'colsample_bytree': 0.8349853669789817}. Best is trial 17 with value: 0.7206969911863033.[0m
+2203.5s 115 [32m[I 2022-01-31 11:05:09,495][0m Trial 21 finished with value: 0.7187721608752913 and parameters: {'booster': 'dart', 'learning_rate': 0.02835020165399363, 'max_depth': 11, 'subsample': 0.8360036573631238, 'colsample_bytree': 0.6985151469312496}. Best is trial 17 with value: 0.7206969911863033.[0m
+2204.5s 116 [32m[I 2022-01-31 11:05:10,490][0m Trial 22 finished with value: 0.7168473305642791 and parameters: {'booster': 'dart', 'learning_rate': 0.033600095124696555, 'max_depth': 11, 'subsample': 0.8134020837849061, 'colsample_bytree': 0.7010393361520336}. Best is trial 17 with value: 0.7206969911863033.[0m
+2205.3s 117 [32m[I 2022-01-31 11:05:11,247][0m Trial 23 finished with value: 0.7152264208286903 and parameters: {'booster': 'dart', 'learning_rate': 0.022487388442912086, 'max_depth': 10, 'subsample': 0.8192251092073157, 'colsample_bytree': 0.5827753776664018}. Best is trial 17 with value: 0.7206969911863033.[0m
+2206.4s 118 [32m[I 2022-01-31 11:05:12,325][0m Trial 24 finished with value: 0.7200891500354574 and parameters: {'booster': 'dart', 'learning_rate': 0.04781889816013865, 'max_depth': 11, 'subsample': 0.5895745720365367, 'colsample_bytree': 0.8550168431636536}. Best is trial 17 with value: 0.7206969911863033.[0m
+2206.5s 119 [32m[I 2022-01-31 11:05:12,445][0m Trial 25 finished with value: 0.6905075473609563 and parameters: {'booster': 'gblinear', 'learning_rate': 0.056165837046626026, 'max_depth': 11, 'subsample': 0.5825294453026354, 'colsample_bytree': 0.8746175080141612}. Best is trial 17 with value: 0.7206969911863033.[0m
+2206.6s 120 [11:05:12] WARNING: ../src/learner.cc:576:
+2206.6s 121 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2206.6s 122 
+2206.6s 123 This could be a false alarm, with some parameters getting used by language bindings but
+2206.6s 124 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2206.6s 125 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2206.6s 126 
+2206.6s 127 
+2207.0s 128 [32m[I 2022-01-31 11:05:12,941][0m Trial 26 finished with value: 0.7035761321041435 and parameters: {'booster': 'dart', 'learning_rate': 0.07237747326290347, 'max_depth': 8, 'subsample': 0.4094879370864877, 'colsample_bytree': 0.4474501448900152}. Best is trial 17 with value: 0.7206969911863033.[0m
+2207.9s 129 [32m[I 2022-01-31 11:05:13,801][0m Trial 27 finished with value: 0.7184682402998683 and parameters: {'booster': 'dart', 'learning_rate': 0.043882782170657754, 'max_depth': 9, 'subsample': 0.63139482308429, 'colsample_bytree': 0.8877481094020055}. Best is trial 17 with value: 0.7206969911863033.[0m
+2208.9s 130 [32m[I 2022-01-31 11:05:14,804][0m Trial 28 finished with value: 0.7140107385269983 and parameters: {'booster': 'dart', 'learning_rate': 0.048641296609155976, 'max_depth': 11, 'subsample': 0.7626340777402104, 'colsample_bytree': 0.7000600487841383}. Best is trial 17 with value: 0.7206969911863033.[0m
+2209.0s 131 [32m[I 2022-01-31 11:05:14,916][0m Trial 29 finished with value: 0.6860500455880864 and parameters: {'booster': 'gblinear', 'learning_rate': 0.0685849020507887, 'max_depth': 6, 'subsample': 0.4162913686952922, 'colsample_bytree': 0.5450766797439928}. Best is trial 17 with value: 0.7206969911863033.[0m
+2209.1s 132 [11:05:14] WARNING: ../src/learner.cc:576:
+2209.1s 133 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2209.1s 134 
+2209.1s 135 This could be a false alarm, with some parameters getting used by language bindings but
+2209.1s 136 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2209.1s 137 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2209.1s 138 
+2209.1s 139 
+2209.7s 140 [32m[I 2022-01-31 11:05:15,616][0m Trial 30 finished with value: 0.7071218721507445 and parameters: {'booster': 'dart', 'learning_rate': 0.01912673817906147, 'max_depth': 10, 'subsample': 0.9343445634142395, 'colsample_bytree': 0.48014022581935434}. Best is trial 17 with value: 0.7206969911863033.[0m
+2210.5s 141 [32m[I 2022-01-31 11:05:16,487][0m Trial 31 finished with value: 0.709755850471077 and parameters: {'booster': 'dart', 'learning_rate': 0.04061566621738802, 'max_depth': 9, 'subsample': 0.615429582304537, 'colsample_bytree': 0.8915686584199282}. Best is trial 17 with value: 0.7206969911863033.[0m
+2211.5s 142 [32m[I 2022-01-31 11:05:17,426][0m Trial 32 finished with value: 0.7201904568939318 and parameters: {'booster': 'dart', 'learning_rate': 0.04873925601945696, 'max_depth': 10, 'subsample': 0.5493297061081676, 'colsample_bytree': 0.8329968201713971}. Best is trial 17 with value: 0.7206969911863033.[0m
+2212.2s 143 [32m[I 2022-01-31 11:05:18,163][0m Trial 33 finished with value: 0.7063114172829501 and parameters: {'booster': 'dart', 'learning_rate': 0.026991600290648347, 'max_depth': 10, 'subsample': 0.3276061340666187, 'colsample_bytree': 0.6421144086125987}. Best is trial 17 with value: 0.7206969911863033.[0m
+2212.3s 144 [32m[I 2022-01-31 11:05:18,276][0m Trial 34 finished with value: 0.6944585148414548 and parameters: {'booster': 'gblinear', 'learning_rate': 0.036492161312323, 'max_depth': 11, 'subsample': 0.4943939247878598, 'colsample_bytree': 0.83792116129599}. Best is trial 17 with value: 0.7206969911863033.[0m
+2212.4s 145 [11:05:18] WARNING: ../src/learner.cc:576:
+2212.4s 146 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2212.4s 147 
+2212.4s 148 This could be a false alarm, with some parameters getting used by language bindings but
+2212.4s 149 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2212.4s 150 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2212.4s 151 
+2212.4s 152 
+2212.6s 153 [32m[I 2022-01-31 11:05:18,507][0m Trial 35 finished with value: 0.6945598216999291 and parameters: {'booster': 'dart', 'learning_rate': 0.0630717971002627, 'max_depth': 11, 'subsample': 0.5525017564941934, 'colsample_bytree': 0.0270030702240025}. Best is trial 17 with value: 0.7206969911863033.[0m
+2213.2s 154 [32m[I 2022-01-31 11:05:19,167][0m Trial 36 finished with value: 0.70185391551008 and parameters: {'booster': 'dart', 'learning_rate': 0.04852125708752863, 'max_depth': 10, 'subsample': 0.19096408218291827, 'colsample_bytree': 0.7155390526130652}. Best is trial 17 with value: 0.7206969911863033.[0m
+2214.1s 155 [32m[I 2022-01-31 11:05:20,066][0m Trial 37 finished with value: 0.7178603991490224 and parameters: {'booster': 'gbtree', 'learning_rate': 0.018066133888692007, 'max_depth': 10, 'subsample': 0.4561796207656936, 'colsample_bytree': 0.8194615050180554}. Best is trial 17 with value: 0.7206969911863033.[0m
+2214.7s 156 [32m[I 2022-01-31 11:05:20,635][0m Trial 38 finished with value: 0.7041839732549894 and parameters: {'booster': 'dart', 'learning_rate': 0.03710222359152974, 'max_depth': 6, 'subsample': 0.6643441823110123, 'colsample_bytree': 0.9228358286759645}. Best is trial 17 with value: 0.7206969911863033.[0m
+2214.8s 157 [32m[I 2022-01-31 11:05:20,753][0m Trial 39 finished with value: 0.6946611285584035 and parameters: {'booster': 'gblinear', 'learning_rate': 0.028166995702770876, 'max_depth': 11, 'subsample': 0.7581166223831488, 'colsample_bytree': 0.7410904896789124}. Best is trial 17 with value: 0.7206969911863033.[0m
+2214.9s 158 [11:05:20] WARNING: ../src/learner.cc:576:
+2214.9s 159 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2214.9s 160 
+2214.9s 161 This could be a false alarm, with some parameters getting used by language bindings but
+2214.9s 162 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2214.9s 163 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2214.9s 164 
+2214.9s 165 
+2215.2s 166 [32m[I 2022-01-31 11:05:21,186][0m Trial 40 finished with value: 0.7034748252456692 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08000320568482239, 'max_depth': 9, 'subsample': 0.17518450368122807, 'colsample_bytree': 0.5744068008244952}. Best is trial 17 with value: 0.7206969911863033.[0m
+2216.2s 167 [32m[I 2022-01-31 11:05:22,160][0m Trial 41 finished with value: 0.7156316482625875 and parameters: {'booster': 'dart', 'learning_rate': 0.04313183687219272, 'max_depth': 10, 'subsample': 0.623561539358722, 'colsample_bytree': 0.8667464199109375}. Best is trial 17 with value: 0.7206969911863033.[0m
+2217.2s 168 [32m[I 2022-01-31 11:05:23,170][0m Trial 42 finished with value: 0.7149225002532672 and parameters: {'booster': 'dart', 'learning_rate': 0.05125533613790296, 'max_depth': 10, 'subsample': 0.6578473720661374, 'colsample_bytree': 0.9376347367446668}. Best is trial 17 with value: 0.7206969911863033.[0m
+2218.0s 169 [32m[I 2022-01-31 11:05:23,956][0m Trial 43 finished with value: 0.7147198865363185 and parameters: {'booster': 'dart', 'learning_rate': 0.043193725156717974, 'max_depth': 9, 'subsample': 0.5366190480168521, 'colsample_bytree': 0.7567074371044668}. Best is trial 17 with value: 0.7206969911863033.[0m
+2218.6s 170 [32m[I 2022-01-31 11:05:24,581][0m Trial 44 finished with value: 0.7084388613109107 and parameters: {'booster': 'dart', 'learning_rate': 0.05960040677312213, 'max_depth': 8, 'subsample': 0.4450257769686422, 'colsample_bytree': 0.6653387577518101}. Best is trial 17 with value: 0.7206969911863033.[0m
+2219.1s 171 [32m[I 2022-01-31 11:05:25,001][0m Trial 45 finished with value: 0.6995238577651707 and parameters: {'booster': 'dart', 'learning_rate': 0.035828634096988284, 'max_depth': 11, 'subsample': 0.7624603656867485, 'colsample_bytree': 0.1661715539820835}. Best is trial 17 with value: 0.7206969911863033.[0m
+2220.3s 172 [32m[I 2022-01-31 11:05:25,998][0m Trial 46 finished with value: 0.7203930706108804 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05269784633334885, 'max_depth': 11, 'subsample': 0.5019395069065496, 'colsample_bytree': 0.8164528561958428}. Best is trial 17 with value: 0.7206969911863033.[0m
+2221.2s 173 [32m[I 2022-01-31 11:05:27,144][0m Trial 47 finished with value: 0.7198865363185086 and parameters: {'booster': 'gbtree', 'learning_rate': 0.06723373158071531, 'max_depth': 11, 'subsample': 0.5150644821421985, 'colsample_bytree': 0.8046859770100563}. Best is trial 17 with value: 0.7206969911863033.[0m
+2222.1s 174 [32m[I 2022-01-31 11:05:28,050][0m Trial 48 finished with value: 0.7156316482625875 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0670772643561551, 'max_depth': 11, 'subsample': 0.3736966071425244, 'colsample_bytree': 0.7834206942892823}. Best is trial 17 with value: 0.7206969911863033.[0m
+2223.1s 175 [32m[I 2022-01-31 11:05:29,047][0m Trial 49 finished with value: 0.7185695471583426 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07852194663256937, 'max_depth': 10, 'subsample': 0.5119101981062375, 'colsample_bytree': 0.9963934025658903}. Best is trial 17 with value: 0.7206969911863033.[0m
+2224.1s 176 [32m[I 2022-01-31 11:05:30,059][0m Trial 50 finished with value: 0.7166447168473306 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05356710905756013, 'max_depth': 11, 'subsample': 0.5772289475922693, 'colsample_bytree': 0.8127132811638351}. Best is trial 17 with value: 0.7206969911863033.[0m
+2225.2s 177 [32m[I 2022-01-31 11:05:31,159][0m Trial 51 finished with value: 0.7170499442812277 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0621341831245494, 'max_depth': 11, 'subsample': 0.4947130305711598, 'colsample_bytree': 0.8527007040081376}. Best is trial 17 with value: 0.7206969911863033.[0m
+2226.0s 178 [32m[I 2022-01-31 11:05:31,982][0m Trial 52 finished with value: 0.7207982980447776 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05236111905431891, 'max_depth': 11, 'subsample': 0.9011045747297194, 'colsample_bytree': 0.623621137018364}. Best is trial 52 with value: 0.7207982980447776.[0m
+2226.9s 179 [32m[I 2022-01-31 11:05:32,812][0m Trial 53 finished with value: 0.7190760814507142 and parameters: {'booster': 'gbtree', 'learning_rate': 0.053036177124344795, 'max_depth': 11, 'subsample': 0.9234836481970671, 'colsample_bytree': 0.6149592541014776}. Best is trial 52 with value: 0.7207982980447776.[0m
+2228.8s 180 [32m[I 2022-01-31 11:05:34,713][0m Trial 54 finished with value: 0.7164421031303819 and parameters: {'booster': 'gbtree', 'learning_rate': 0.040534583630001675, 'max_depth': 10, 'subsample': 0.38713417711065523, 'colsample_bytree': 0.9183224242568115}. Best is trial 52 with value: 0.7207982980447776.[0m
+2229.6s 181 [32m[I 2022-01-31 11:05:35,513][0m Trial 55 finished with value: 0.7144159659608955 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07741770496572675, 'max_depth': 10, 'subsample': 0.5671996655171823, 'colsample_bytree': 0.7483175946195321}. Best is trial 52 with value: 0.7207982980447776.[0m
+2230.6s 182 [32m[I 2022-01-31 11:05:36,507][0m Trial 56 finished with value: 0.7208996049032521 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08719954282461731, 'max_depth': 11, 'subsample': 0.9700753572865582, 'colsample_bytree': 0.795495654475716}. Best is trial 56 with value: 0.7208996049032521.[0m
+2231.4s 183 [32m[I 2022-01-31 11:05:37,340][0m Trial 57 finished with value: 0.7211022186202006 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0865739455645002, 'max_depth': 11, 'subsample': 0.9730474079206893, 'colsample_bytree': 0.6339178438247024}. Best is trial 57 with value: 0.7211022186202006.[0m
+2231.6s 184 [32m[I 2022-01-31 11:05:37,546][0m Trial 58 finished with value: 0.6987134028973762 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08985606708863259, 'max_depth': 3, 'subsample': 0.9670476184901198, 'colsample_bytree': 0.5217694029766098}. Best is trial 57 with value: 0.7211022186202006.[0m
+2231.9s 185 [32m[I 2022-01-31 11:05:37,849][0m Trial 59 finished with value: 0.7004356194914396 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0937572522599996, 'max_depth': 4, 'subsample': 0.8915417891246717, 'colsample_bytree': 0.6620020585873891}. Best is trial 57 with value: 0.7211022186202006.[0m
+2232.7s 186 [32m[I 2022-01-31 11:05:38,628][0m Trial 60 finished with value: 0.7193800020261372 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08394340042057384, 'max_depth': 11, 'subsample': 0.9659399073375228, 'colsample_bytree': 0.5702614821942092}. Best is trial 57 with value: 0.7211022186202006.[0m
+2233.5s 187 [32m[I 2022-01-31 11:05:39,437][0m Trial 61 finished with value: 0.7210009117617263 and parameters: {'booster': 'gbtree', 'learning_rate': 0.047111525834128865, 'max_depth': 11, 'subsample': 0.8956998625838264, 'colsample_bytree': 0.5985372677720507}. Best is trial 57 with value: 0.7211022186202006.[0m
+2234.4s 188 [32m[I 2022-01-31 11:05:40,314][0m Trial 62 finished with value: 0.7210009117617263 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07210351173557883, 'max_depth': 11, 'subsample': 0.8937839381121532, 'colsample_bytree': 0.634443832026897}. Best is trial 57 with value: 0.7211022186202006.[0m
+2235.2s 189 [32m[I 2022-01-31 11:05:41,151][0m Trial 63 finished with value: 0.7173538648566508 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07404690258107771, 'max_depth': 11, 'subsample': 0.8898749298347461, 'colsample_bytree': 0.6085974356515067}. Best is trial 57 with value: 0.7211022186202006.[0m
+2236.0s 190 [32m[I 2022-01-31 11:05:41,905][0m Trial 64 finished with value: 0.7137068179515752 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08374098039442816, 'max_depth': 11, 'subsample': 0.9908056936236556, 'colsample_bytree': 0.4874596251144415}. Best is trial 57 with value: 0.7211022186202006.[0m
+2236.6s 191 [32m[I 2022-01-31 11:05:42,554][0m Trial 65 finished with value: 0.7137068179515752 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09962299470246631, 'max_depth': 11, 'subsample': 0.848479190185186, 'colsample_bytree': 0.38995642127815766}. Best is trial 57 with value: 0.7211022186202006.[0m
+2237.5s 192 [32m[I 2022-01-31 11:05:43,449][0m Trial 66 finished with value: 0.718366933441394 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07046249349122494, 'max_depth': 11, 'subsample': 0.9140007365480485, 'colsample_bytree': 0.6414605782284365}. Best is trial 57 with value: 0.7211022186202006.[0m
+2238.2s 193 [32m[I 2022-01-31 11:05:44,193][0m Trial 67 finished with value: 0.7163407962719076 and parameters: {'booster': 'gbtree', 'learning_rate': 0.024555219105970593, 'max_depth': 10, 'subsample': 0.9498921508459043, 'colsample_bytree': 0.5971636053694116}. Best is trial 57 with value: 0.7211022186202006.[0m
+2238.9s 194 [32m[I 2022-01-31 11:05:44,882][0m Trial 68 finished with value: 0.712997669942255 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08842321300567074, 'max_depth': 10, 'subsample': 0.790317723058501, 'colsample_bytree': 0.5480148664305463}. Best is trial 57 with value: 0.7211022186202006.[0m
+2239.9s 195 [32m[I 2022-01-31 11:05:45,806][0m Trial 69 finished with value: 0.7213048323371493 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0571412073620355, 'max_depth': 11, 'subsample': 0.8783517922700326, 'colsample_bytree': 0.6848210357646551}. Best is trial 69 with value: 0.7213048323371493.[0m
+2240.6s 196 [32m[I 2022-01-31 11:05:46,591][0m Trial 70 finished with value: 0.7179617060074968 and parameters: {'booster': 'gbtree', 'learning_rate': 0.06110383461733293, 'max_depth': 10, 'subsample': 0.8780966395618847, 'colsample_bytree': 0.6850541203874241}. Best is trial 69 with value: 0.7213048323371493.[0m
+2240.8s 197 [32m[I 2022-01-31 11:05:46,788][0m Trial 71 finished with value: 0.6173639955424982 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05473724841276219, 'max_depth': 11, 'subsample': 0.0007823874061420599, 'colsample_bytree': 0.62684047574119}. Best is trial 69 with value: 0.7213048323371493.[0m
+2241.8s 198 [32m[I 2022-01-31 11:05:47,708][0m Trial 72 finished with value: 0.7213048323371493 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05839167946539654, 'max_depth': 11, 'subsample': 0.9077703113508191, 'colsample_bytree': 0.7158588353030693}. Best is trial 69 with value: 0.7213048323371493.[0m
+2242.7s 199 [32m[I 2022-01-31 11:05:48,659][0m Trial 73 finished with value: 0.7176577854320737 and parameters: {'booster': 'gbtree', 'learning_rate': 0.05785164135756126, 'max_depth': 11, 'subsample': 0.9094858236105166, 'colsample_bytree': 0.7288867088815729}. Best is trial 69 with value: 0.7213048323371493.[0m
+2243.6s 200 [32m[I 2022-01-31 11:05:49,510][0m Trial 74 finished with value: 0.7160368756964847 and parameters: {'booster': 'gbtree', 'learning_rate': 0.06425921942852414, 'max_depth': 11, 'subsample': 0.8411451986605515, 'colsample_bytree': 0.6595891770789174}. Best is trial 69 with value: 0.7213048323371493.[0m
+2244.0s 201 [32m[I 2022-01-31 11:05:49,921][0m Trial 75 finished with value: 0.7096545436126026 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07593639620583992, 'max_depth': 6, 'subsample': 0.9537043674362095, 'colsample_bytree': 0.693182047380728}. Best is trial 69 with value: 0.7213048323371493.[0m
+2244.7s 202 [32m[I 2022-01-31 11:05:50,603][0m Trial 76 finished with value: 0.7141120453854726 and parameters: {'booster': 'gbtree', 'learning_rate': 0.011090825289423989, 'max_depth': 10, 'subsample': 0.7979481268205697, 'colsample_bytree': 0.5801486415681543}. Best is trial 69 with value: 0.7213048323371493.[0m
+2244.8s 203 [32m[I 2022-01-31 11:05:50,720][0m Trial 77 finished with value: 0.6941545942660318 and parameters: {'booster': 'gblinear', 'learning_rate': 0.0460779800444349, 'max_depth': 7, 'subsample': 0.863604973643218, 'colsample_bytree': 0.7215154163441975}. Best is trial 69 with value: 0.7213048323371493.[0m
+2244.9s 204 [11:05:50] WARNING: ../src/learner.cc:576:
+2244.9s 205 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2244.9s 206 
+2244.9s 207 This could be a false alarm, with some parameters getting used by language bindings but
+2244.9s 208 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2244.9s 209 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2244.9s 210 
+2244.9s 211 
+2245.5s 212 [32m[I 2022-01-31 11:05:51,466][0m Trial 78 finished with value: 0.7149225002532672 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0329087993355818, 'max_depth': 11, 'subsample': 0.8991592472409004, 'colsample_bytree': 0.5140146491900124}. Best is trial 69 with value: 0.7213048323371493.[0m
+2246.5s 213 [32m[I 2022-01-31 11:05:52,427][0m Trial 79 finished with value: 0.7222165940634181 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0933017573368788, 'max_depth': 11, 'subsample': 0.9958276772154104, 'colsample_bytree': 0.7692656268007138}. Best is trial 79 with value: 0.7222165940634181.[0m
+2247.4s 214 [32m[I 2022-01-31 11:05:53,347][0m Trial 80 finished with value: 0.7213048323371493 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09410023775042047, 'max_depth': 10, 'subsample': 0.9929453056522911, 'colsample_bytree': 0.7750673036528273}. Best is trial 79 with value: 0.7222165940634181.[0m
+2248.4s 215 [32m[I 2022-01-31 11:05:54,326][0m Trial 81 finished with value: 0.7226218214973154 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0836269678935918, 'max_depth': 11, 'subsample': 0.9911641563104077, 'colsample_bytree': 0.7889774708091468}. Best is trial 81 with value: 0.7226218214973154.[0m
+2249.3s 216 [32m[I 2022-01-31 11:05:55,280][0m Trial 82 finished with value: 0.7215074460540979 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09137417863268918, 'max_depth': 11, 'subsample': 0.997132417005611, 'colsample_bytree': 0.7736161072206927}. Best is trial 81 with value: 0.7226218214973154.[0m
+2250.2s 217 [32m[I 2022-01-31 11:05:56,105][0m Trial 83 finished with value: 0.720291763752406 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09458960634048466, 'max_depth': 10, 'subsample': 0.9392509823512177, 'colsample_bytree': 0.7683376033376282}. Best is trial 81 with value: 0.7226218214973154.[0m
+2251.3s 218 [32m[I 2022-01-31 11:05:57,004][0m Trial 84 finished with value: 0.7195826157430858 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08280006869952324, 'max_depth': 11, 'subsample': 0.9923528943450075, 'colsample_bytree': 0.6793616245635177}. Best is trial 81 with value: 0.7226218214973154.[0m
+2252.3s 219 [32m[I 2022-01-31 11:05:58,212][0m Trial 85 finished with value: 0.7248505723837504 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09296221856044858, 'max_depth': 11, 'subsample': 0.9891573054917479, 'colsample_bytree': 0.7672780534497126}. Best is trial 85 with value: 0.7248505723837504.[0m
+2253.1s 220 [32m[I 2022-01-31 11:05:59,060][0m Trial 86 finished with value: 0.7200891500354574 and parameters: {'booster': 'gbtree', 'learning_rate': 0.0953899380170883, 'max_depth': 10, 'subsample': 0.9943260596366448, 'colsample_bytree': 0.7631830517135623}. Best is trial 85 with value: 0.7248505723837504.[0m
+2254.0s 221 [32m[I 2022-01-31 11:05:59,972][0m Trial 87 finished with value: 0.7218113666295208 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09194895523374579, 'max_depth': 11, 'subsample': 0.9319109906876442, 'colsample_bytree': 0.7145321180228247}. Best is trial 85 with value: 0.7248505723837504.[0m
+2254.8s 222 [32m[I 2022-01-31 11:06:00,751][0m Trial 88 finished with value: 0.7206969911863033 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09203161529037289, 'max_depth': 10, 'subsample': 0.9355820169135278, 'colsample_bytree': 0.7197664709397599}. Best is trial 85 with value: 0.7248505723837504.[0m
+2255.8s 223 [32m[I 2022-01-31 11:06:01,733][0m Trial 89 finished with value: 0.7227231283557897 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09931452087286619, 'max_depth': 11, 'subsample': 0.9671666127658701, 'colsample_bytree': 0.7804039155423445}. Best is trial 85 with value: 0.7248505723837504.[0m
+2255.9s 224 [32m[I 2022-01-31 11:06:01,848][0m Trial 90 finished with value: 0.6787559517779354 and parameters: {'booster': 'gblinear', 'learning_rate': 0.09984613179055275, 'max_depth': 8, 'subsample': 0.9959566513157672, 'colsample_bytree': 0.7759933399079222}. Best is trial 85 with value: 0.7248505723837504.[0m
+2256.0s 225 [11:06:01] WARNING: ../src/learner.cc:576:
+2256.0s 226 Parameters: { "colsample_bytree", "max_depth", "subsample" } might not be used.
+2256.0s 227 
+2256.0s 228 This could be a false alarm, with some parameters getting used by language bindings but
+2256.0s 229 then being mistakenly passed down to XGBoost core, or some parameter actually being used
+2256.0s 230 but getting flagged wrongly here. Please open an issue if you find any such cases.
+2256.0s 231 
+2256.0s 232 
+2256.8s 233 [32m[I 2022-01-31 11:06:02,783][0m Trial 91 finished with value: 0.7198865363185086 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08199350951653585, 'max_depth': 11, 'subsample': 0.9694377383289402, 'colsample_bytree': 0.7471152841040974}. Best is trial 85 with value: 0.7248505723837504.[0m
+2257.9s 234 [32m[I 2022-01-31 11:06:03,830][0m Trial 92 finished with value: 0.7174551717151251 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08819458795650907, 'max_depth': 11, 'subsample': 0.9504737028827247, 'colsample_bytree': 0.8404451263581422}. Best is trial 85 with value: 0.7248505723837504.[0m
+2258.9s 235 [32m[I 2022-01-31 11:06:04,847][0m Trial 93 finished with value: 0.718366933441394 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09163549448880967, 'max_depth': 11, 'subsample': 0.927291813763071, 'colsample_bytree': 0.7899805273651472}. Best is trial 85 with value: 0.7248505723837504.[0m
+2259.8s 236 [32m[I 2022-01-31 11:06:05,784][0m Trial 94 finished with value: 0.7215074460540979 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08020500358151772, 'max_depth': 11, 'subsample': 0.9708188661136082, 'colsample_bytree': 0.7419513181298201}. Best is trial 85 with value: 0.7248505723837504.[0m
+2261.8s 237 [32m[I 2022-01-31 11:06:07,718][0m Trial 95 finished with value: 0.7225205146388409 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08016895551344562, 'max_depth': 11, 'subsample': 0.8710434308311386, 'colsample_bytree': 0.708306724119568}. Best is trial 85 with value: 0.7248505723837504.[0m
+2262.7s 238 [32m[I 2022-01-31 11:06:08,650][0m Trial 96 finished with value: 0.7176577854320737 and parameters: {'booster': 'gbtree', 'learning_rate': 0.08068031598625768, 'max_depth': 10, 'subsample': 0.9239033380540097, 'colsample_bytree': 0.872012946097267}. Best is trial 85 with value: 0.7248505723837504.[0m
+2263.6s 239 [32m[I 2022-01-31 11:06:09,564][0m Trial 97 finished with value: 0.7195826157430858 and parameters: {'booster': 'gbtree', 'learning_rate': 0.07649779420690452, 'max_depth': 11, 'subsample': 0.9981653934649928, 'colsample_bytree': 0.7115506970278779}. Best is trial 85 with value: 0.7248505723837504.[0m
+2264.5s 240 [32m[I 2022-01-31 11:06:10,499][0m Trial 98 finished with value: 0.7207982980447776 and parameters: {'booster': 'gbtree', 'learning_rate': 0.06874730745297981, 'max_depth': 11, 'subsample': 0.8660421872898522, 'colsample_bytree': 0.7454865442955156}. Best is trial 85 with value: 0.7248505723837504.[0m
+2265.6s 241 [32m[I 2022-01-31 11:06:11,514][0m Trial 99 finished with value: 0.7187721608752913 and parameters: {'booster': 'gbtree', 'learning_rate': 0.09571396766849007, 'max_depth': 11, 'subsample': 0.9709444951929214, 'colsample_bytree': 0.8204940105062054}. Best is trial 85 with value: 0.7248505723837504.[0m
+2266.1s 242 /opt/conda/lib/python3.7/site-packages/xgboost/sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+2266.1s 243 warnings.warn(label_encoder_deprecation_msg, UserWarning)
+2266.5s 244 [11:06:12] WARNING: ../src/learner.cc:1115: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'multi:softprob' was changed from 'merror' to 'mlogloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+2296.9s 245 Optimized SuperLearner accuracy:  0.9279708236247594
+2296.9s 246 Optimized SuperLearner f1-score:  0.9279708236247594
+2297.3s 247 Number of finished trials:  100
+2297.3s 248 Best trial:
+2297.3s 249 Value: 0.7248505723837504
+2297.3s 250 Params:
+2297.3s 251 booster: gbtree
+2297.3s 252 learning_rate: 0.09296221856044858
+2297.3s 253 max_depth: 11
+2297.3s 254 subsample: 0.9891573054917479
+2297.3s 255 colsample_bytree: 0.7672780534497126
+2297.7s 256 All of accuracies
+2297.7s 257 [0.7487653539318728, 0.7418946301925026, 0.7415146909827761, 0.7426545086119554, 0.7387284701114488]
+2297.7s 258 Mean of accuracies
+2297.7s 259 0.7427115307661111
+2303.0s 260 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2303.0s 261 FutureWarning,
+2303.0s 262 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+2304.3s 263 [NbConvertApp] Writing 1735845 bytes to __notebook__.ipynb
+2307.1s 264 /opt/conda/lib/python3.7/site-packages/traitlets/traitlets.py:2567: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+2307.1s 265 FutureWarning,
+2307.1s 266 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+2309.0s 267 [NbConvertApp] Support files will be in __results___files/
+2309.0s 268 [NbConvertApp] Making directory __results___files
+2309.0s 269 [NbConvertApp] Making directory __results___files
+2309.0s 270 [NbConvertApp] Making directory __results___files
+2309.0s 271 [NbConvertApp] Making directory __results___files
+2309.0s 272 [NbConvertApp] Making directory __results___files
+2309.0s 273 [NbConvertApp] Making directory __results___files
+2309.0s 274 [NbConvertApp] Making directory __results___files
+2309.0s 275 [NbConvertApp] Making directory __results___files
+2309.0s 276 [NbConvertApp] Making directory __results___files
+2309.0s 277 [NbConvertApp] Making directory __results___files
+2309.0s 278 [NbConvertApp] Making directory __results___files
+2309.0s 279 [NbConvertApp] Making directory __results___files
+2309.0s 280 [NbConvertApp] Making directory __results___files
+2309.0s 281 [NbConvertApp] Making directory __results___files
+2309.0s 282 [NbConvertApp] Making directory __results___files
+2309.0s 283 [NbConvertApp] Writing 526235 bytes to __results__.html
